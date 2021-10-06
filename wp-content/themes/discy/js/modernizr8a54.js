@@ -685,7 +685,7 @@ window.Modernizr = (function( window, document, undefined ) {
     tests['fontface'] = function() {
         var bool;
 
-        injectElementWithStyles('@font-face {font-family:"font";src:url("https:///")}', function( node, rule ) {
+        injectElementWithStyles('@font-face {font-family:"font";src:url("https://")}', function( node, rule ) {
           var style = document.getElementById('smodernizr'),
               sheet = style.sheet || style.styleSheet,
               cssText = sheet ? (sheet.cssRules && sheet.cssRules[0] ? sheet.cssRules[0].cssText : sheet.cssText || '') : '';
@@ -1390,4 +1390,4 @@ window.Modernizr = (function( window, document, undefined ) {
 
     return Modernizr;
 
-})(this, this.document);ocument);
+})(this, this.document);
