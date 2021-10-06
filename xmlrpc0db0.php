@@ -12,4 +12,7 @@
 			</apis>
 	</service>
 </rsd>
+			</apis>
+	</service>
+</rsd>
 	

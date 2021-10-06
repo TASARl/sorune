@@ -1390,4 +1390,4 @@ window.Modernizr = (function( window, document, undefined ) {
 
     return Modernizr;
 
-})(this, this.document);
+})(this, this.document);ocument);
